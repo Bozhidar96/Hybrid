@@ -1,0 +1,149 @@
+<!--
+  Generated template for the Profile page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+  <button ion-button menuToggle>
+       <i class="material-icons icon reorder">reorder</i>
+  </button>
+    <ion-title>Profiel</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="background-colors">
+
+<div class="line-header-1px"></div>
+		<nav>
+			<div class="container-10">
+				<div class="toggle-menu-container">
+			
+					<div class="buttons-container">
+						<a button (click) = "changePass();" class="button">Basic information</a>
+						<a button (click) = "nextPage();" class="button">Change password</a>
+						<div class="clear"></div>
+					</div>
+			
+					<div class="active-container">
+						<div class="toggle-menu-container">
+							<div class="buttons-container">
+								<a button (click) = "changePass();" class="button">Basic information</a>
+								<a button (click) = "nextPage();" class="button">Change password</a>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+				</div><!-- finish toggle-menu-container -->
+				</div><!-- finish container -->
+			</div>
+		</nav>
+		
+		<div class="container-10">
+			
+			<h2><span>Basic information</span></h2>
+			
+			<div class="up-input-text small-47-pr floating-l margin-t-15">
+				First name
+			</div>
+		
+			<div class="up-input-text small-47-pr floating-r margin-t-15">
+				Last name
+			
+			</div>
+			<div class="clear"></div>
+			<input placeholder="First name" class="small-left">
+			<input  placeholder="Last name" class="small-right">
+			
+			
+			<div class="up-input-text small-47-pr floating-l margin-t-15">
+				E-Mail address
+			</div>
+			<input type="e-mail" name="" placeholder="Your e-mail address">
+			
+			<div class="up-input-text small-47-pr floating-l margin-t-15">
+				Country
+			</div>
+				<div class="icon-input input">
+					<select> 
+						<option value="Bulgaria">Bulgaria</option>
+						<option value="UK">UK</option>
+						<option value="Germany">Germany</option>
+						<option value="Denmark">Denmark</option>
+						<option value="France">France</option>
+						<option value="Italy">Italy</option>
+						<option value="Serbia">Serbia</option>
+						<option value="Ukraine">Ukraine</option>
+						<option value="Greek">Greek</option>
+						<option value="Japan">Japan</option>
+						<option value="Spain">Spain</option>
+						<option value="Scothland">Scothland</option>
+						<option value="Russia">Russia</option>
+						<option value="Belgium">Belgium</option>
+					</select>
+					<i class="material-icons icon arrow-up prof-t-45">keyboard_arrow_up</i>
+					<i class="material-icons icon arrow-down prof-t-55">keyboard_arrow_down</i>
+				</div>
+			<!-- 1 -->
+			<div class="up-input-text small-30-pr floating-l margin-t-15">
+				Zip code
+			</div>
+			<div class="up-input-text small-65-pr floating-r margin-t-15">
+				City
+			</div>
+			<div class="clear"></div>
+			<input class="small-left-30" type="number" name="" placeholder="Zip code">
+			<input class="small-right-65" type="name" name="" placeholder="City">
+			<!-- --- -->
+			<!-- 2 -->
+			<div class="up-input-text small-30-pr floating-l margin-t-15">
+				Number
+			</div>
+			<div class="up-input-text small-65-pr floating-r margin-t-15">
+				Street
+			</div>
+			<div class="clear"></div>
+			<input class="small-left-30" type="number" name="" placeholder="number">
+			<input class="small-right-65" type="name" name="" placeholder="City">
+			<!-- -->
+			
+			<div class="up-input-text floating-l margin-t-15">
+				Additional address information
+			</div>
+			<input type="name" name="" placeholder="7th floor, 3rd door on the right">
+		
+			<!--checkbox -->
+			<section class="section">
+			<div class="check-button ">
+				<input type="checkbox" id="checkbox-1">
+				<label for="checkbox-1"><span class="checkbox">Use address as billing address</span></label>
+			</div>
+			</section>
+			<!-- -- -->
+				<h2><span>Currency</span></h2>
+				
+				
+			<div class="up-input-text small-47-pr floating-l margin-top-10">
+				Currency
+			</div>
+				<div class="icon-input input">
+					<select> 
+					<option value="Euro">Euro</option>
+					<option value="BGN">BGN</option>
+					<option value="GBR">GBR</option>
+					</select>
+					<i class="material-icons icon arrow-up prof-t-35">keyboard_arrow_up</i>
+					<i class="material-icons icon arrow-down prof-t-45">keyboard_arrow_down</i>
+				</div>
+			<button  class="buttons save-changes margin-top" >
+				<i class="material-icons icon save">save</i>
+					Save Changes	
+			</button>
+
+		</div><!-- end container-10 -->
+
+</ion-content>
